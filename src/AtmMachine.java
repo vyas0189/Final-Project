@@ -210,12 +210,14 @@ public class AtmMachine extends JFrame {
                             changePasswordLabel.setBounds(28, 55, 105, 75);
                             changePasswordFrame.add(changePasswordLabel);
 
-                            JTextField currentPasswordField = new JTextField();
+                            JPasswordField currentPasswordField = new JPasswordField();
                             currentPasswordField.setBounds(120, 52, 105, 20);
+                            currentPasswordField.setEchoChar('*');
                             changePasswordFrame.add(currentPasswordField);
 
-                            JTextField newPasswordField = new JTextField();
+                            JPasswordField newPasswordField = new JPasswordField();
                             newPasswordField.setBounds(120, 85, 105, 20);
+                            newPasswordField.setEchoChar('*');
                             changePasswordFrame.add(newPasswordField);
 
                             JButton change = new JButton("Change");
@@ -223,8 +225,8 @@ public class AtmMachine extends JFrame {
                             change.addActionListener(new ActionListener() {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
-                                    String currPass = currentPasswordField.getText();
-                                    String newPass = newPasswordField.getText();
+                                    String currPass = new String(currentPasswordField.getPassword());
+                                    String newPass = new String(newPasswordField.getPassword());
                                     changePassword(currPass, newPass);
                                     login.put(myAccount.getAccountNumber(), newPass);
                                     changePasswordFrame.dispose();
