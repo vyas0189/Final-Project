@@ -3,16 +3,16 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.*;
 
 public class AtmMachine extends JFrame {
     private static JPasswordField passwordField;
     private JTextField accountNumberField, amountTextField, transferNumberField;
-    private JButton loginBtn;
     private Account myAccount;
     private String inputAccount, inputPass;
 
-    private ArrayList<Account> accInfo = new ArrayList<>();
     private HashMap<String, String> login = new HashMap<>();
     private HashMap<String, Account> users = new HashMap<>();
 
@@ -52,7 +52,7 @@ public class AtmMachine extends JFrame {
         passwordField.setEchoChar('*');
         add(passwordField);
 
-        loginBtn = new JButton("Login");
+        JButton loginBtn = new JButton("Login");
         loginBtn.setBounds(200, 160, 100, 30);
         loginBtn.setBackground(Color.lightGray);
         loginBtn.addActionListener(new ActionListener() {
@@ -71,7 +71,6 @@ public class AtmMachine extends JFrame {
                     afterLog.setVisible(true);
                     afterLog.setLocationRelativeTo(null);
                     afterLog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
 
                     afterLog.setLayout(new GridLayout(3, 2));
                     JButton depositBtn = new JButton("Deposit");
@@ -145,7 +144,8 @@ public class AtmMachine extends JFrame {
                     checkBalBtn.addActionListener(new ActionListener() {
                         @Override
                         public void actionPerformed(ActionEvent e) {
-                            JOptionPane.showMessageDialog(null, "You have " + myAccount.getBalance());
+                            NumberFormat format = new DecimalFormat("#0.00");
+                            JOptionPane.showMessageDialog(null, "You have $" + format.format(myAccount.getBalance()));
                         }
                     });
                     afterLog.add(checkBalBtn);
@@ -286,31 +286,34 @@ public class AtmMachine extends JFrame {
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "File not found");
-            e.printStackTrace();
         }
     }
 
     public double getAmount() {
         try {
-            double amount = Double.parseDouble(amountTextField.getText());
-            return amount;
+            return Double.parseDouble(amountTextField.getText());
         } catch (NumberFormatException exception) {
-            JOptionPane.showMessageDialog(this, "Please enter the amount!", "Number Format Error", JOptionPane.ERROR_MESSAGE);
-            amountTextField.setText("");
             amountTextField.requestFocusInWindow();
         }
-        return 0;
+        return -1;
     }
 
     public void depositAmount(double amount) {
-        myAccount.transfer(amount);
-        JOptionPane.showMessageDialog(null, "Deposit successful");
+        if(amount >= 0) {
+            myAccount.transfer(amount);
+            JOptionPane.showMessageDialog(null, "Deposit successful");
+        }else {
+            JOptionPane.showMessageDialog(null, "Deposit Unsuccessful. Please enter a valid amount.");
+        }
     }
 
     public void withdrawAmount(double amount) {
         if (amount > myAccount.getBalance()) {
             JOptionPane.showMessageDialog(null, "You don't have enough money to withdraw");
-        } else {
+        } else if(amount <= 0){
+            JOptionPane.showMessageDialog(null, "Withdraw Unsuccessful. Please enter a valid amount.");
+        }
+        else {
             myAccount.transfer(0 - amount);
             JOptionPane.showMessageDialog(null, "Withdraw successful");
         }
@@ -335,6 +338,8 @@ public class AtmMachine extends JFrame {
         Account userSender = users.get(myAccount.getAccountNumber());
         if (amount > userSender.getBalance()) {
             JOptionPane.showMessageDialog(null, "You don't have enough money to transfer");
+        }else if(amount <= 0){
+            JOptionPane.showMessageDialog(null, "Transfer Unsuccessful. Please enter a valid amount.");
         } else {
             userReceiver.transfer(amount);
             userSender.transfer(0 - amount);
