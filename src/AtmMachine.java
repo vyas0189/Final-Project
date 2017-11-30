@@ -6,9 +6,9 @@ import java.io.*;
 import java.util.*;
 
 public class AtmMachine extends JFrame {
+    private static JPasswordField passwordField;
     private JTextField accountNumberField, amountTextField, transferNumberField;
     private JButton loginBtn;
-    private static JPasswordField passwordField;
     private Account myAccount;
     private String inputAccount, inputPass;
 
@@ -16,13 +16,13 @@ public class AtmMachine extends JFrame {
     private HashMap<String, String> login = new HashMap<>();
     private HashMap<String, Account> users = new HashMap<>();
 
+    private AtmMachine() {
+        initialize();
+    }
+
     public static void main(String[] args) throws IOException {
         AtmMachine atm = new AtmMachine();
         atm.setVisible(true);
-    }
-
-    private AtmMachine() {
-        initialize();
     }
 
     private void initialize() {
@@ -31,6 +31,7 @@ public class AtmMachine extends JFrame {
         setSize(600, 400);
         setLayout(null);
         setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JLabel accountNumberLabel = new JLabel("Account number: ");
         accountNumberLabel.setBounds(175, 50, 100, 100);
@@ -66,9 +67,11 @@ public class AtmMachine extends JFrame {
                     setVisible(false);
                     JFrame afterLog = new JFrame();
                     afterLog.setSize(400, 400);
-                    afterLog.setTitle("Menu");
+                    afterLog.setTitle("Welcome " + myAccount.getLastName() + " " + myAccount.getFirstName());
                     afterLog.setVisible(true);
                     afterLog.setLocationRelativeTo(null);
+                    afterLog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
                     afterLog.setLayout(new GridLayout(3, 2));
                     JButton depositBtn = new JButton("Deposit");
@@ -282,7 +285,7 @@ public class AtmMachine extends JFrame {
                 login.put(inAccount, inPass);
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null,"File not found");
+            JOptionPane.showMessageDialog(null, "File not found");
             e.printStackTrace();
         }
     }
