@@ -262,6 +262,8 @@ public class AtmMachine extends JFrame {
                     afterLog.add(logoutBtn);
                 } else {
                     JOptionPane.showMessageDialog(null, "Wrong Username or Password");
+                    accountNumberField.setText("");
+                    passwordField.setText("");
                 }
             }
         });

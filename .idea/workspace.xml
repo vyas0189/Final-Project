@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae92f499-acba-49b6-85d9-946a4b7aeec0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$3.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine.class" />
       <change beforePath="$PROJECT_DIR$/src/AtmMachine.java" afterPath="$PROJECT_DIR$/src/AtmMachine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,12 +35,12 @@
       <file leaf-file-name="AtmMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="277" column="13" lean-forward="true" selection-start-line="277" selection-start-column="13" selection-end-line="277" selection-end-column="13" />
+            <state relative-caret-position="236">
+              <caret line="273" column="41" lean-forward="true" selection-start-line="273" selection-start-column="41" selection-end-line="273" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#13354#13355#0" expanded="true" />
-                <element signature="e#13400#13401#0" expanded="true" />
+                <element signature="e#13453#13454#0" expanded="true" />
+                <element signature="e#13499#13500#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -305,7 +292,7 @@
       <workItem from="1512098221233" duration="2018000" />
       <workItem from="1512140969147" duration="141000" />
       <workItem from="1512141161932" duration="60000" />
-      <workItem from="1512141934509" duration="7123000" />
+      <workItem from="1512141934509" duration="7305000" />
     </task>
     <task id="LOCAL-00001" summary="update 10">
       <created>1512053867808</created>
@@ -335,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512150638821</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update 13">
+      <created>1512150701582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512150701582</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21586000" />
+    <option name="totallyTimeSpent" value="21768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -351,10 +345,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -406,8 +400,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,8 +436,8 @@
           <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,8 +472,8 @@
           <caret line="219" column="62" lean-forward="false" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,8 +508,8 @@
           <caret line="219" column="62" lean-forward="true" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,8 +544,8 @@
           <caret line="147" column="75" lean-forward="true" selection-start-line="147" selection-start-column="75" selection-end-line="147" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,8 +580,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,8 +616,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,12 +664,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="277" column="13" lean-forward="true" selection-start-line="277" selection-start-column="13" selection-end-line="277" selection-end-column="13" />
+        <state relative-caret-position="236">
+          <caret line="273" column="41" lean-forward="true" selection-start-line="273" selection-start-column="41" selection-end-line="273" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13354#13355#0" expanded="true" />
-            <element signature="e#13400#13401#0" expanded="true" />
+            <element signature="e#13453#13454#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
           </folding>
         </state>
       </provider>
