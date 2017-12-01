@@ -7,8 +7,6 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.*;
 
-import static java.awt.Color.WHITE;
-
 public class AtmMachine extends JFrame {
     private static JPasswordField passwordField;
     private JTextField accountNumberField, amountTextField, transferNumberField;
@@ -272,7 +270,7 @@ public class AtmMachine extends JFrame {
         JButton exitBtn = new JButton("Exit");
         exitBtn.setBounds(350, 160, 100, 30);
         exitBtn.setBackground(Color.RED);
-        exitBtn.setForeground(WHITE);
+        exitBtn.setForeground(Color.WHITE);
         exitBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
