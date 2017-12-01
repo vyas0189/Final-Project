@@ -101,8 +101,9 @@ public class AtmMachine extends JFrame {
                                 public void actionPerformed(ActionEvent e) {
                                     success = false;
                                     depositAmount(getAmount());
-                                    if (success)
+                                    if (success) {
                                         depositFrame.dispose();
+                                    }
                                 }
                             });
                             depositFrame.add(submit);
@@ -136,8 +137,9 @@ public class AtmMachine extends JFrame {
                                 public void actionPerformed(ActionEvent e) {
                                     success = false;
                                     withdrawAmount(getAmount());
-                                    if (success)
+                                    if (success) {
                                         withdrawFrame.dispose();
+                                    }
                                 }
                             });
                             withdrawFrame.add(submit);
@@ -190,8 +192,9 @@ public class AtmMachine extends JFrame {
                                 public void actionPerformed(ActionEvent e) {
                                     success = false;
                                     transferAmount(transferNumberField.getText(), getAmount());
-                                    if (success)
+                                    if (success) {
                                         transferFrame.dispose();
+                                    }
                                 }
                             });
                             transferFrame.add(submit);
@@ -288,7 +291,6 @@ public class AtmMachine extends JFrame {
             Scanner filePass = new Scanner(new FileReader("Password.txt"));
 
             while (fileAcc.hasNext()) {
-
                 String accountNumber = fileAcc.nextLine();
                 String lastName = fileAcc.nextLine();
                 String firstName = fileAcc.nextLine();
