@@ -308,7 +308,7 @@ public class AtmMachine extends JFrame {
         }
     }
 
-    public double getAmount() {
+    private double getAmount() {
         try {
             return Double.parseDouble(amountTextField.getText());
         } catch (NumberFormatException exception) {
@@ -317,7 +317,7 @@ public class AtmMachine extends JFrame {
         return -1;
     }
 
-    public void depositAmount(double amount) {
+    private void depositAmount(double amount) {
         if (amount >= 0) {
             myAccount.transfer(amount);
             JOptionPane.showMessageDialog(null, "Deposit successful");
@@ -327,7 +327,7 @@ public class AtmMachine extends JFrame {
         }
     }
 
-    public void withdrawAmount(double amount) {
+    private void withdrawAmount(double amount) {
         if (amount > myAccount.getBalance()) {
             JOptionPane.showMessageDialog(null, "You don't have enough money to withdraw");
         } else if (amount <= 0) {
@@ -339,7 +339,7 @@ public class AtmMachine extends JFrame {
         }
     }
 
-    public void changePassword(String currPass) {
+    private void changePassword(String currPass) {
 
         String inPass = login.get(myAccount.getAccountNumber());
         if (currPass.equals(inPass)) {
@@ -350,7 +350,7 @@ public class AtmMachine extends JFrame {
         }
     }
 
-    public void transferAmount(String transferAccNum, double amount) {
+    private void transferAmount(String transferAccNum, double amount) {
         Account userReceiver = users.get(transferAccNum);
         Account userSender = users.get(myAccount.getAccountNumber());
         if (amount > userSender.getBalance()) {
@@ -365,7 +365,7 @@ public class AtmMachine extends JFrame {
         }
     }
 
-    public void writeFile() {
+    private void writeFile() {
         try {
             BufferedWriter writeAcc = new BufferedWriter(new FileWriter("AccountInformation.txt"));
             BufferedWriter writePass = new BufferedWriter(new FileWriter("Password.txt"));
