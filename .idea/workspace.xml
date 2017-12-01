@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AtmMachine" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae92f499-acba-49b6-85d9-946a4b7aeec0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/AtmMachine.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AccountInformation.txt" afterPath="$PROJECT_DIR$/AccountInformation.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$3.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" />
@@ -46,21 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AtmMachine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AtmMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="378" column="40" lean-forward="true" selection-start-line="378" selection-start-column="40" selection-end-line="378" selection-end-column="40" />
+            <state relative-caret-position="233">
+              <caret line="259" column="67" lean-forward="false" selection-start-line="259" selection-start-column="67" selection-end-line="259" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#13573#13574#0" expanded="true" />
-                <element signature="e#13619#13620#0" expanded="true" />
+                <element signature="e#13631#13632#0" expanded="true" />
+                <element signature="e#13677#13678#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Password.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Password.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Password.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -102,6 +98,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Wh</find>
+      <find>logou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,8 +117,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Account.java" />
         <option value="$PROJECT_DIR$/AccountInformation.txt" />
-        <option value="$PROJECT_DIR$/src/AtmMachine.java" />
         <option value="$PROJECT_DIR$/Password.txt" />
+        <option value="$PROJECT_DIR$/src/AtmMachine.java" />
       </list>
     </option>
   </component>
@@ -145,7 +142,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -158,14 +155,53 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Final-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Project" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Final-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -306,7 +342,7 @@
       <workItem from="1512098221233" duration="2018000" />
       <workItem from="1512140969147" duration="141000" />
       <workItem from="1512141161932" duration="60000" />
-      <workItem from="1512141934509" duration="7988000" />
+      <workItem from="1512141934509" duration="9383000" />
     </task>
     <task id="LOCAL-00001" summary="update 10">
       <created>1512053867808</created>
@@ -357,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512151229225</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 13">
+      <created>1512151566325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512151566325</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22451000" />
+    <option name="totallyTimeSpent" value="23846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -428,8 +471,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,8 +507,8 @@
           <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -500,8 +543,8 @@
           <caret line="219" column="62" lean-forward="false" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,8 +579,8 @@
           <caret line="219" column="62" lean-forward="true" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -572,8 +615,8 @@
           <caret line="147" column="75" lean-forward="true" selection-start-line="147" selection-start-column="75" selection-end-line="147" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,8 +651,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,8 +687,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,15 +717,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+    <entry file="file://$PROJECT_DIR$/Password.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="378" column="40" lean-forward="true" selection-start-line="378" selection-start-column="40" selection-end-line="378" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13573#13574#0" expanded="true" />
-            <element signature="e#13619#13620#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,11 +733,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Password.txt">
+    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="233">
+          <caret line="259" column="67" lean-forward="false" selection-start-line="259" selection-start-column="67" selection-end-line="259" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13677#13678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -708,10 +751,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>AtmMachine</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -742,7 +787,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -254,6 +254,7 @@ public class AtmMachine extends JFrame {
 
                     JButton logoutBtn = new JButton("Logout");
                     logoutBtn.setBackground(Color.RED);
+                    logoutBtn.setForeground(Color.WHITE);
                     logoutBtn.addActionListener(new ActionListener() {
                         @Override
                         public void actionPerformed(ActionEvent e) {
