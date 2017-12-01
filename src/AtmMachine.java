@@ -13,6 +13,7 @@ public class AtmMachine extends JFrame {
     private static JPasswordField passwordField;
     private JTextField accountNumberField, amountTextField, transferNumberField;
     private Account myAccount;
+    private boolean success;
     private String inputAccount, inputPass;
 
     private HashMap<String, String> login = new HashMap<>();
@@ -22,7 +23,7 @@ public class AtmMachine extends JFrame {
         initialize();
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         AtmMachine atm = new AtmMachine();
         atm.setVisible(true);
     }
@@ -100,7 +101,9 @@ public class AtmMachine extends JFrame {
                             submit.addActionListener(new ActionListener() {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
-                                        depositAmount(getAmount());
+                                    success = false;
+                                    depositAmount(getAmount());
+                                    if (success)
                                         depositFrame.dispose();
                                 }
                             });
@@ -133,7 +136,9 @@ public class AtmMachine extends JFrame {
                             submit.addActionListener(new ActionListener() {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
-                                        withdrawAmount(getAmount());
+                                    success = false;
+                                    withdrawAmount(getAmount());
+                                    if (success)
                                         withdrawFrame.dispose();
                                 }
                             });
@@ -185,8 +190,10 @@ public class AtmMachine extends JFrame {
                             submit.addActionListener(new ActionListener() {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
+                                    success = false;
                                     transferAmount(transferNumberField.getText(), getAmount());
-                                    transferFrame.dispose();
+                                    if (success)
+                                        transferFrame.dispose();
                                 }
                             });
                             transferFrame.add(submit);
@@ -230,12 +237,12 @@ public class AtmMachine extends JFrame {
                                 public void actionPerformed(ActionEvent e) {
                                     String currPass = new String(currentPasswordField.getPassword());
                                     String newPass = new String(newPasswordField.getPassword());
-                                    if(!(newPass.equals(""))) {
+                                    if (!(newPass.isEmpty())) {
                                         changePassword(currPass);
                                         login.put(myAccount.getAccountNumber(), newPass);
                                         changePasswordFrame.dispose();
-                                    }else {
-                                        JOptionPane.showMessageDialog(null,"Please input a new password.");
+                                    } else {
+                                        JOptionPane.showMessageDialog(null, "Please input a new password.");
                                     }
                                 }
                             });
@@ -250,7 +257,6 @@ public class AtmMachine extends JFrame {
                         @Override
                         public void actionPerformed(ActionEvent e) {
                             writeFile();
-                            //System.exit(0);
                             afterLog.dispose();
                             setVisible(true);
                         }
@@ -310,10 +316,11 @@ public class AtmMachine extends JFrame {
     }
 
     public void depositAmount(double amount) {
-        if(amount >= 0) {
+        if (amount >= 0) {
             myAccount.transfer(amount);
             JOptionPane.showMessageDialog(null, "Deposit successful");
-        }else {
+            success = true;
+        } else {
             JOptionPane.showMessageDialog(null, "Deposit Unsuccessful. Please enter a valid amount.");
         }
     }
@@ -321,12 +328,12 @@ public class AtmMachine extends JFrame {
     public void withdrawAmount(double amount) {
         if (amount > myAccount.getBalance()) {
             JOptionPane.showMessageDialog(null, "You don't have enough money to withdraw");
-        } else if(amount <= 0){
+        } else if (amount <= 0) {
             JOptionPane.showMessageDialog(null, "Withdraw Unsuccessful. Please enter a valid amount.");
-        }
-        else {
+        } else {
             myAccount.transfer(0 - amount);
             JOptionPane.showMessageDialog(null, "Withdraw successful");
+            success = true;
         }
     }
 
@@ -346,12 +353,13 @@ public class AtmMachine extends JFrame {
         Account userSender = users.get(myAccount.getAccountNumber());
         if (amount > userSender.getBalance()) {
             JOptionPane.showMessageDialog(null, "You don't have enough money to transfer");
-        }else if(amount <= 0){
+        } else if (amount < 0) {
             JOptionPane.showMessageDialog(null, "Transfer Unsuccessful. Please enter a valid amount.");
         } else {
             userReceiver.transfer(amount);
             userSender.transfer(0 - amount);
             JOptionPane.showMessageDialog(null, "Transfer successful");
+            success = true;
         }
     }
 
