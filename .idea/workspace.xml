@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae92f499-acba-49b6-85d9-946a4b7aeec0" name="Default" comment="update 10">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AccountInformation.txt" afterPath="$PROJECT_DIR$/AccountInformation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AtmMachine.java" afterPath="$PROJECT_DIR$/src/AtmMachine.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AccountInformation.txt" afterPath="$PROJECT_DIR$/AccountInformation.txt" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/Account.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/Account.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$3.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$5.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1$6.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine.class" afterPath="$PROJECT_DIR$/out/production/Final-Project/AtmMachine.class" />
+      <change beforePath="$PROJECT_DIR$/src/AtmMachine.java" afterPath="$PROJECT_DIR$/src/AtmMachine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,13 +49,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AtmMachine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AtmMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1007">
-              <caret line="219" column="62" lean-forward="true" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
+            <state relative-caret-position="200">
+              <caret line="358" column="63" lean-forward="true" selection-start-line="358" selection-start-column="63" selection-end-line="358" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#12907#12908#0" expanded="true" />
+                <element signature="e#12953#12954#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,21 +76,18 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding>
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountInformation.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountInformation.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AccountInformation.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -101,13 +110,16 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/AtmMachine.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Account.java" />
         <option value="$PROJECT_DIR$/AccountInformation.txt" />
-        <option value="$PROJECT_DIR$/src/AtmMachine.java" />
         <option value="$PROJECT_DIR$/Password.txt" />
+        <option value="$PROJECT_DIR$/src/AtmMachine.java" />
       </list>
     </option>
   </component>
@@ -154,6 +166,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,7 +180,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtmMachine">
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
     <configuration name="AtmMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AtmMachine" />
@@ -181,13 +201,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Final-Project" />
       <envs />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -223,12 +236,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -263,6 +270,12 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.AtmMachine" />
@@ -286,7 +299,11 @@
       <workItem from="1512018498335" duration="416000" />
       <workItem from="1512052904184" duration="3930000" />
       <workItem from="1512070795633" duration="1484000" />
-      <workItem from="1512080908742" duration="2529000" />
+      <workItem from="1512080908742" duration="3191000" />
+      <workItem from="1512098221233" duration="2018000" />
+      <workItem from="1512140969147" duration="141000" />
+      <workItem from="1512141161932" duration="60000" />
+      <workItem from="1512141934509" duration="3408000" />
     </task>
     <task id="LOCAL-00001" summary="update 10">
       <created>1512053867808</created>
@@ -299,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11582000" />
+    <option name="totallyTimeSpent" value="17871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -318,7 +335,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49382716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.49382716" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -358,10 +375,156 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountInformation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountInformation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="219" column="62" lean-forward="false" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountInformation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="219" column="62" lean-forward="true" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountInformation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
           <caret line="147" column="75" lean-forward="true" selection-start-line="147" selection-start-column="75" selection-end-line="147" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -370,10 +533,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -399,6 +559,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,10 +585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -436,6 +595,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,21 +613,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -478,21 +625,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1007">
-          <caret line="219" column="62" lean-forward="true" selection-start-line="219" selection-start-column="62" selection-end-line="219" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AccountInformation.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AtmMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="358" column="63" lean-forward="true" selection-start-line="358" selection-start-column="63" selection-end-line="358" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12907#12908#0" expanded="true" />
+            <element signature="e#12953#12954#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

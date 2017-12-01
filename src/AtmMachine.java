@@ -93,12 +93,12 @@ public class AtmMachine extends JFrame {
                             depositFrame.add(amountTextField);
 
                             JButton submit = new JButton("Submit");
-                            submit.setBounds(190, 135, 90, 25);
+                            submit.setBounds(200, 135, 90, 25);
                             submit.addActionListener(new ActionListener() {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
-                                    depositAmount(getAmount());
-                                    depositFrame.dispose();
+                                        depositAmount(getAmount());
+                                        depositFrame.dispose();
                                 }
                             });
                             depositFrame.add(submit);
@@ -126,12 +126,12 @@ public class AtmMachine extends JFrame {
                             withdrawFrame.add(amountTextField);
 
                             JButton submit = new JButton("Submit");
-                            submit.setBounds(190, 135, 90, 25);
+                            submit.setBounds(200, 135, 90, 25);
                             submit.addActionListener(new ActionListener() {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
-                                    withdrawAmount(getAmount());
-                                    withdrawFrame.dispose();
+                                        withdrawAmount(getAmount());
+                                        withdrawFrame.dispose();
                                 }
                             });
                             withdrawFrame.add(submit);
@@ -227,9 +227,13 @@ public class AtmMachine extends JFrame {
                                 public void actionPerformed(ActionEvent e) {
                                     String currPass = new String(currentPasswordField.getPassword());
                                     String newPass = new String(newPasswordField.getPassword());
-                                    changePassword(currPass, newPass);
-                                    login.put(myAccount.getAccountNumber(), newPass);
-                                    changePasswordFrame.dispose();
+                                    if(!(newPass.equals(""))) {
+                                        changePassword(currPass);
+                                        login.put(myAccount.getAccountNumber(), newPass);
+                                        changePasswordFrame.dispose();
+                                    }else {
+                                        JOptionPane.showMessageDialog(null,"Please input a new password.");
+                                    }
                                 }
                             });
                             changePasswordFrame.add(change);
@@ -280,7 +284,6 @@ public class AtmMachine extends JFrame {
                 String status = fileAcc.nextLine();
                 users.put(accountNumber, new Account(accountNumber, lastName, firstName, balance, status));
             }
-
             while (filePass.hasNext()) {
                 String inAccount = filePass.next();
                 String inPass = filePass.next();
@@ -321,18 +324,15 @@ public class AtmMachine extends JFrame {
         }
     }
 
-    public String changePassword(String currPass, String newPass) {
+    public void changePassword(String currPass) {
 
         String inPass = login.get(myAccount.getAccountNumber());
-        if (currPass.equals(inPass) && !(inPass.equals(" "))) {
-            inPass = newPass;
+        if (currPass.equals(inPass)) {
             System.out.println("Changed Password");
             JOptionPane.showMessageDialog(null, "Password Changed");
         } else {
-            inPass = inputPass;
             JOptionPane.showMessageDialog(null, "Current Password is incorrect");
         }
-        return inPass;
     }
 
     public void transferAmount(String transferAccNum, double amount) {
@@ -356,10 +356,11 @@ public class AtmMachine extends JFrame {
 
             for (String accountNumber : users.keySet()) {
                 Account a = users.get(accountNumber);
+                NumberFormat round = new DecimalFormat("#.00");
                 writeAcc.write(a.getAccountNumber() + "\n");
                 writeAcc.write(a.getLastName() + "\n");
                 writeAcc.write(a.getFirstName() + "\n");
-                writeAcc.write(a.getBalance() + "\n");
+                writeAcc.write(round.format(a.getBalance()) + "\n");
                 writeAcc.write(a.getStatus() + "\n");
             }
             for (String accountNumber : login.keySet()) {
